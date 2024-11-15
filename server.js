@@ -22,14 +22,14 @@ const connection = mysql.createConnection({
     //port: process.env.DB_PORT || 3306 // Add this line if your MySQL server uses a non-default port
 });
 
-/*connection.connect((err) => {
+connection.connect((err) => {
     if (err) {
         console.error('Error connecting to the database:', err);
         return;
     }
     console.log('Successfully connected to the database!');
 });
-*/
+
 
 
 // Handle form submission
