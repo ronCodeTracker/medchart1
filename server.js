@@ -18,8 +18,8 @@ const connection = mysql.createConnection({
     host: process.env.HOST, // Replace with your remote server address
     user: process.env.USER, // Replace with your database username
     password: process.env.PASSWORD, // Replace with your database password
-    database: process.env.DATABASE, // Replace with your database name
-    port: process.env.DB_PORT || 3306 // Add this line if your MySQL server uses a non-default port
+    database: process.env.DATABASE // Replace with your database name
+    //port: process.env.DB_PORT || 3306 // Add this line if your MySQL server uses a non-default port
 });
 
 /*connection.connect((err) => {
