@@ -15,7 +15,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 // MySQL connection
 const connection = mysql.createConnection({
-    198.12.253.32, // Replace with your remote server address
+    host: '198.12.235.32' , // Replace with your remote server address
     user: process.env.USER, // Replace with your database username
     password: process.env.PASSWORD, // Replace with your database password
     database: process.env.DATABASE // Replace with your database name
